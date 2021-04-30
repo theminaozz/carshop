@@ -1,0 +1,210 @@
+/* span{
+    background-color:orange !important; */
+    /* 3. Importance...!Important will be prioritize */
+    /* 1.Position ...css priority scheme so orange doesnt apply to the spans with the internal style*/
+    /* the priority moves downward */
+    
+/* } */
+
+/* 1.class...multiple elements like departments
+2. id.... employee number(unique per person)(id is more specific than class bec its more unique*/
+
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* if the pc cant follow arial it will follow Helvetica */
+}
+
+hr{
+    background-color:white;
+margin-bottom:30px;
+}
+
+h2{
+    border:10px solid white;
+    width:300px;
+    margin:auto;
+    padding:10px;
+    margin-bottom:50px;
+}
+
+p{
+    color:white;
+    text-align:center;
+}
+
+.main_link{
+    /* background-color:thistle; */
+    text-decoration:none;
+    font-size:25px;
+    color:gray;
+    padding:5px;
+    margin:20px;
+    text-align:center;
+}
+
+#current_page{
+    /* background-color:cyan; */
+    color:white;
+}
+
+/* digital color meter or color picker */
+/* #1d344a,#f2f8fc,black */
+
+a:hover, #current_page:hover {
+    background-color:rgb(211, 210, 221);
+}
+
+form{
+    color:white;
+    margin:10px;
+}
+
+
+
+#firstname:active {
+    background-color:yellow;
+}
+
+div span{
+    background-color:magenta;
+}
+
+h1 {
+    color: white;
+    /* background-color:#1d344a; */
+    font-size:60px;
+    /* font-weight:normal; */
+    /* font-style:italic; */
+    text-transform:capitalize;
+    /* text-decoration: line-through; */
+    text-align:center;
+    /* text-shadow:3px 3px 5px skyblue; */
+    /* text-indent:-100px; */
+    /* letter-spacing:5px; */
+    /* word-spacing:-75px; */
+    height: 200px;
+    /* border:10px solid white; */
+    padding:80px;
+    box-sizing:border-box;
+}
+
+h2{
+    font-size:30px;
+    text-align:center;
+    color: white;
+    /* background-color:#1d344a; */
+}
+
+ul{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align:center; */
+    margin-left:100px;
+}
+ol>li{
+    list-style-type:upper-latin;
+}
+
+ul>li{
+    list-style-type:disc;
+    list-style-position:outside; 
+    /* list-style:url("../images/blue_dot.png") circle inside; */
+}
+
+.about_photo{
+    
+    /* background-color:springgreen; */
+    /* margin:auto; */
+    /* margin:35px 45px 55px 65px; */
+    display:inline-block;
+    /* display:inline; */
+    background-repeat:no-repeat;
+    background-size:contain;
+    padding:10px;
+    /* border:5px solid red; */
+    /* border-radius:10px; */
+    overflow:hidden;
+    box-sizing:content-box;
+    /* box sizing makes the width and height the sum of border,padding,content */
+    /* box-shadow:5px 10px 0px red; */
+    /* position: relative; */
+  display:block;
+  margin:auto;
+}
+
+ /* background-image: url("../images/nissancar-image.jpeg");
+    background-repeat:no-repeat;
+    background-position:50px 100px; */
+    /* background-attachment:scroll; */
+    /* background-size:contain; */
+    /* background-size:150px 150px; */
+    /* background: url("../images/benz-image.jpeg") mediumspringgreen no-repeat 0px 0px; */
+    /* left:200px; */
+    /* top:100px; */
+    #pic1{
+        width:300px;
+        height:200px;
+        background-image: url("../images/benz-image.jpeg")
+    }
+    
+
+#pic2{
+    width:300px;
+        height:200px;
+    background-image: url("../images/bmw-image.jpeg")
+}
+
+#pic3{
+    width:300px;
+        height:200px;
+    background-image: url("../images/nissancar-image.jpeg")
+}
+
+#pic4{
+    width:300px;
+        height:200px;
+    background-image: url("../images/jaguar-image.jpeg")
+}
+
+#container{
+    /* width:85%; */
+    /* margin:auto; */
+    /* min-height:100%; */
+    background-color:black;
+}
+
+table{
+ empty-cells:show;
+ /* border-spacing:5px 10px; */
+ /* border-collapse:separate; */
+ margin:auto;
+ width:100%;
+ max-width:950px;
+ color:white;
+ /* border-color:white; */
+ /* padding:20px */
+}
+
+td>img{
+    width:100%;
+    max-width:250px;
+}
+
+th,td,table{
+    border:2px solid white;
+
+}
+
+form{
+    margin-left:100px;
+    margin-bottom:100px;
+    margin-top:10px;
+}
+
+footer{
+    text-align:center;
+    margin:auto;
+    color:gray;
+    padding:10px 0px;
+    font-size:20px;
+}

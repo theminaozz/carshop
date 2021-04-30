@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+
+    <!-- internal css -->
+    <style>
+
+        span#sspan{
+            /* over over span and u can see priority in numbers like(1,0,1) */
+            background-color:chartreuse !important;
+            
+        /* 2.Specificity...id>normal, when speficic the css prioritize */
+        }
+
+        
+
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+
+    <!-- if my link element newer it is priorotized cus it comes afer-->
+</head>
+　　　
+<body>
+    <div id="container">
+        <header>
+    <h1>Carshop Company</h1>
+    <h2>About Us</h2>
+    <!-- <hr> -->
+    <nav>
+    <a class="main_link"  href="index.html">Home</a>
+   <a class="main_link" href="product.html">Product</a>
+   <a class="main_link" id="current_page" href="about-us.html">About Us</a>
+   <a class="main_link" href="contact-us.html">Contact Us</a>
+</nav>
+</header>
+    <!-- inline css -->
+
+   <!-- <div style="background-color:yellow; color:blue">
+        I am a div element. </div>
+    <span style="background-color:tomato;">
+        I am a span element.
+    </span>
+    <span style="background-color:violet;">
+        I am another span element.
+    </span>
+
+    <span>
+        I am the newest span element.
+    </span>
+
+    <span id="sspan">I am the newest span.</span> -->
+
+    <!-- <div>
+        <span>I am a spam inside a div.</span>
+    </div>
+    <span>I am a span outside a div.</span> -->
+ <br>
+    <div class="about_photo" id="pic1"></div>
+    <div class="about_photo" id="pic2"></div>
+    <div class="about_photo" id="pic3"></div>
+    <div class="about_photo" id="pic4"></div>
+    <br>
+    <br>
+    <footer>
+        Copyright 2021
+    </footer>    
+</div>
+
+</body>
+</html>
